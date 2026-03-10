@@ -33,6 +33,7 @@ OpenClaw 将人类可读性置于首位：
 ### 🏗️ 系统核心实现
 *   **[Gateway 核心模块](./gateway_core.md)**：深入了解 `src/gateway` 的各子模块组成。
 *   **[Gateway 服务编排](./gateway_orchestration.md)**：解析 `server.impl.ts` 如何协调运行时、基础设施、插件渠道及动态自愈。
+*   **[心跳 (Heartbeat) 机制](./heartbeat_mechanism.md)**：解析系统如何通过周期性唤醒赋予 AI 主动观察与后台巡检能力。
 *   **[记忆管理机制](./memory_management.md)**：解析多层级存储、动态压缩与 RAG 语义检索逻辑。
 *   **[记忆归属与层级](./memory_hierarchy.md)**：解析多代理环境下的物理隔离、逻辑共享及权属关系。
 *   **[多代理系统 (MAS)](./multi_agent_system.md)**：解析子代理的注册、异步协作、持久化追踪与结果自动通报机制。

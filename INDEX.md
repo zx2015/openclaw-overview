@@ -17,6 +17,7 @@
     *   **[工具管理机制](./technical/tool_management.md)**：Profile 与 Policy 的工具分配逻辑。
     *   **[Gateway 核心模块](./technical/gateway_core.md)**：`src/gateway` 的主要组成部分。
     *   **[Gateway 服务编排](./technical/gateway_orchestration.md)**：运行时、自愈机制与基础设施协调。
+    *   **[心跳机制](./technical/heartbeat_mechanism.md)**：保持连接活跃与 AI 主动巡检逻辑。
     *   **[记忆管理机制](./technical/memory_management.md)**：多层级存储、动态压缩与语义检索。
     *   **[记忆归属与层级](./technical/memory_hierarchy.md)**：多代理环境下的物理隔离、逻辑共享及权属。
     *   **[多代理系统 (MAS)](./technical/multi_agent_system.md)**：子代理注册、异步协作与自动汇报逻辑。
