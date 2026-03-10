@@ -33,7 +33,9 @@ OpenClaw 将人类可读性置于首位：
 ### 🏗️ 系统核心实现
 *   **[Gateway 核心模块](./gateway_core.md)**：深入了解 `src/gateway` 的各子模块组成。
 *   **[Gateway 服务编排](./gateway_orchestration.md)**：解析 `server.impl.ts` 如何协调运行时、基础设施、插件渠道及动态自愈。
+*   **[ACP 通讯协议详解](./acp_protocol.md)**：深度剖析基于 JSON-RPC 2.0 的客户端与 Agent 交互标准。
 *   **[MCP 集成机制](./mcp_integration.md)**：解析 OpenClaw 如何通过桥接模式利用 `mcporter` 支持外部 MCP 服务。
+
 *   **[心跳 (Heartbeat) 机制](./heartbeat_mechanism.md)**：解析系统如何通过周期性唤醒赋予 AI 主动观察与后台巡检能力。
 *   **[记忆管理机制](./memory_management.md)**：解析多层级存储、动态压缩与 RAG 语义检索逻辑。
 *   **[记忆归属与层级](./memory_hierarchy.md)**：解析多代理环境下的物理隔离、逻辑共享及权属关系。
