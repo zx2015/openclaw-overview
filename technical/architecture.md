@@ -33,6 +33,7 @@ OpenClaw 将人类可读性置于首位：
 ### 🏗️ 系统核心实现
 *   **[Gateway 核心模块](./gateway_core.md)**：深入了解 `src/gateway` 的各子模块组成。
 *   **[Gateway 服务编排](./gateway_orchestration.md)**：解析 `server.impl.ts` 如何协调运行时、基础设施、插件渠道及动态自愈。
+*   **[沙箱 (Sandbox) 机制](./sandbox_mechanism.md)**：深度解析基于 Docker/Podman 的工具执行、浏览器隔离与提权协作流。
 *   **[ACP 通讯协议详解](./acp_protocol.md)**：深度剖析基于 JSON-RPC 2.0 的客户端与 Agent 交互标准。
 *   **[MCP 集成机制](./mcp_integration.md)**：解析 OpenClaw 如何通过桥接模式利用 `mcporter` 支持外部 MCP 服务。
 
