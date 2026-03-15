@@ -16,7 +16,7 @@ OpenClaw 的工具集由以下三大部分构成：
     *   **sessions**：`sessions_spawn`, `sessions_list` (多会话管理)。
 
 ### 插件与技能工具 (Plugin/Skill Tools)
-*   **加载机制**：由 `src/gateway/server-plugins.ts` 在网关启动时动态加载。
+*   **加载机制**：由 `src/gateway/server-plugins.ts` 在网关启动时动态加载。更多关于技能 (Skills) 的加载逻辑请参考 **[技能加载与执行机制](./skill_management.md)**。
 *   **内容示例**：
     *   通讯插件：`whatsapp`, `telegram`, `slack` 专用接口。
     *   三方服务：`github`, `jira`, `notion`, `weather` 等 Skills 提供的工具。

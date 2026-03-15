@@ -8,12 +8,18 @@ OpenClaw 提供了直观的子命令来管理 Agent 生命周期。
 
 1.  **查看现有列表**：确认 ID 避免冲突。
     ```bash
-    openclaw agent list
+    openclaw agents list
     ```
 2.  **新建 Agent**：
     ```bash
-    openclaw agent add my-new-agent
+    openclaw agents add my-new-agent
     ```
+    对于 **Docker 环境** 用户，应通过 `openclaw-cli` 服务执行命令：
+    ```bash
+    docker compose run --rm openclaw-cli agents add --name "my-agent" --workspace "/home/node/.openclaw/workspace/my-agent"
+    ```
+    关于详细的 CLI 参数、交互向导以及 Docker 专用配置，请参考 **[如何配置智能体 (Agents)](./configure_agent.md)**。
+
     *注：若 `add` 命令在当前版本不可用，可运行 `openclaw onboard` 重新进入引导流程。*
 3.  **初始化工作区**：首次运行该 Agent 时，系统会自动在 `~/.openclaw/workspace/my-new-agent` 目录下生成 `AGENTS.md`、`SOUL.md` 等核心文件模板。
 
